@@ -1,0 +1,438 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: Montserrat,sans-serif;
+    background: white;
+}
+#header{
+    background: #2435A1;
+
+}
+
+.navbar-nav a{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+.navbar-nav select{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    background: none;
+    border: none;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.navbar-nav select {
+    margin: 0 30px;
+}
+#hero{
+    background: url("../img/bl.png") no-repeat bottom center /cover;
+    min-height: 75vh;
+}
+.hero-i{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+.hero-i p{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    padding-bottom: 40px;
+}
+.hero-do{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    border: 1px solid #FFFFFF;
+    border-radius: 51px;
+}
+.hero-done h1{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    padding: 10px 20px 10px 10px;
+}
+.hero-done{
+    display: flex;
+    align-items: center;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.line{
+    /*position: absolute;*/
+    width: 983px;
+    left: 228px;
+    top: 831px;
+    border:  solid #1100D9;
+    margin-bottom: 40px;
+}
+.orange{
+    position: absolute;
+    width: 625px;
+    height: 438px;
+    left: 240px;
+    top: 906px;
+    background: #FC724D;
+    z-index: -1;
+}
+.clan-me h1{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #000000;
+}
+.clan-me h2{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #000000;
+}
+.ser{
+    width: 87px;
+    height: 87px;
+    background: #F7F7F7;
+    box-shadow: 6px 5px 11px rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   margin: 0 20px 10px 0;
+}
+.clan-so h3{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+.clan-so h4{
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    letter-spacing: 0.2px;
+    color: #1100D9;
+}
+.clan-so{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+.clan{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+.no p{
+    font-weight: 400;
+    font-size: 18px;
+    color: #000000;
+}
+.top button{
+    width: 257px;
+    height: 55px;
+    border: 2px solid #1100D9;
+    border-radius: 16px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 163.4%;
+    letter-spacing: 0.2px;
+    color: #1100D9;
+    margin-left: 350px;
+    margin-top: 50px;
+}
+.say h1{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #000000;
+    margin-bottom: 90px;
+}
+.top{
+    margin-bottom: 140px;
+}
+.quick h1{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #000000;
+}
+.quick h2{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #000000;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+
+}
+.swiper-pagination{
+
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.so h1{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #000000;
+    padding-bottom: 10px;
+}
+.so p{
+    font-weight: 400;
+    font-size: 18px;
+    color: #000000;
+    padding-bottom: 70px;
+}
+.swiper-slide{
+    padding-bottom: 100px;
+}
+.get h1{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+
+    letter-spacing: 0.1px;
+
+    color: #000000;
+    padding-bottom: 70px;
+
+}
+.lose{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 90px;
+}
+.lost{
+    display: flex;
+
+}
+
+.lose img{
+    margin: 7px ;
+}
+.some h1{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #000000;
+    padding-bottom: 50px;
+}
+.another h2{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    margin-left: 10px;
+
+}
+.another{
+    display: flex;
+    align-items: center;
+    padding: 30px 0;
+}
+.another-ten{
+    display: flex;
+
+}
+.another-ten p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 114.4%;
+
+    color: #252B42;
+}
+.some{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 80px;
+}
+#footer{
+    background: url("../img/low.png") no-repeat center bottom/cover;
+   height: 277px;
+}
+.lake h2{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 165.4%;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+.lake{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.lake ion-icon{
+ width: 20px;
+    height: 20px;
+    color: white;
+}
+.why{
+    padding: 30px 30px ;
+}
+.sly h4{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+.bet h5{
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+.sly{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bet ion-icon{
+width: 20px;
+    height: 20px;
+    color: white;
+    margin: 0 0 0 10px;
+}
+.footer-lie{
+    border: 1px solid #FFFFFF;
+    width: 1170px;
+}
+.text h2{
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 32px;
+    text-align: right;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+}
+.motion h1{
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 32px;
+    text-align: right;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+}
+.motion h2{
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+}
+.motion{
+    display: flex;
+    margin: 20px 0 20px 20px;
+}
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.mode{
+    margin-left: 10px;
+}
+.top-modal-bg{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.72);
+    backdrop-filter: blur(5px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.top-modal-bg-square{
+    width: 1171px;
+    height: 603px;
+    overflow-y: scroll;
+    background: #FFFFFF;
+    border: 2px solid #2435A1;
+    border-radius: 38px;
+    padding: 20px 20px;
+    position: relative;
+}
+.top-modal-bg p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 163.4%;
+    letter-spacing: 0.2px;
+    color: #000000;
+}
+.top-modal-bg-square-close{
+    color: red;
+    font-size: 20px;
+    font-weight: 700;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+}
+.top-modal{
+    display: none;
+}
+
+
+
+
